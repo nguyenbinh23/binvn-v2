@@ -80,9 +80,12 @@
 
         function listGroupResizeHandler(){
             if(window.innerWidth >= 992){
-                console.log('resize!!')
                 let listGroup = document.querySelector('#list-group')
                 listGroup.classList.add('show')
+            }
+            if(window.innerWidth <= 991){
+                let listGroup = document.querySelector('#list-group')
+                listGroup.classList.remove('show')
             }
         }
     </script>

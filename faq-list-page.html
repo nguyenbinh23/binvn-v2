@@ -18,7 +18,7 @@
                     <a class="list-group-item active d-flex justify-content-between">Quảng cáo Google<span data-target="#list-group" data-toggle="collapse" class="badge badge-light">+</span></a>
                 </div>        
                 <div class="collapse show" id="list-group">
-                    <div class="list-group b-right">
+                    <div class="list-group b-right" id="test">
                         <a class="list-group-item" href="#">Tất cả</a>
                         <a class="list-group-item active d-none d-lg-block" href="#">Quảng cáo Google</a>
                         <a class="list-group-item" href="#">Quảng cáo Facebook</a>
@@ -98,13 +98,14 @@
         </div>
     </div>
     <script>
-
+        
         window.addEventListener('resize', listGroupResizeHandler);
-
         function listGroupResizeHandler(){
             if(window.innerWidth >= 992){
-                let listGroup = document.querySelector('#list-group')
-                listGroup.classList.add('show')
+                $('#list-group').collapse('show')
+            }
+            if(window.innerWidth <= 991){
+                $('#list-group').collapse('hide')
             }
         }
     </script>
