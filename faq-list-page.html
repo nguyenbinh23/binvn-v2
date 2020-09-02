@@ -98,8 +98,7 @@
         </div>
     </div>
     <script>
-        
-        window.addEventListener('resize', listGroupResizeHandler);
+        $(window).on('resize', listGroupResizeHandler);
         function listGroupResizeHandler(){
             if(window.innerWidth >= 992){
                 $('#list-group').collapse('show')

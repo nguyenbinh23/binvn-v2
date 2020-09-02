@@ -76,7 +76,7 @@
         </div>
     </div>
     <script>
-        window.addEventListener('resize', listGroupResizeHandler);
+        $(window).on('resize', listGroupResizeHandler);
 
         function listGroupResizeHandler(){
             if(window.innerWidth >= 992){
@@ -85,7 +85,7 @@
             }
             if(window.innerWidth <= 991){
                 let listGroup = document.querySelector('#list-group')
-                listGroup.classList.remove('show')
+                listGroup.classList.remove('hide')
             }
         }
     </script>
