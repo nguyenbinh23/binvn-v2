@@ -1,13 +1,12 @@
 .list-group {
     &.b-right {
-     
         border-right: 2px solid crimson;
         a {
             color: #424D54;
         }
         .list-group-item {
             border: none;
-            border-radius: 2px;
+            border-radius: 0;
             font-weight: bold;
             &:hover {
                 cursor: pointer;
@@ -26,12 +25,15 @@
     @media (max-width: 991px) {
         &.b-right {
             border: none;
+            .list-group-item {
+                border-radius: 2px;
+                border: none;
+            }
         }
     }
     &-flush {
-        
         .list-group-item {
-            border-top: 1px solid #E1E5E9;
+            border-bottom: 1px solid #E1E5E9;
             a {
                 font-size: 16px;
                 color: #424D54;
@@ -42,9 +44,6 @@
             }
             &:first-child {
                 border-top: none; 
-            }
-            &:last-child {
-                border-bottom: 1px solid E1E5E9;
             }
         }
     }

@@ -8,7 +8,7 @@
 
 .list-group.b-right .list-group-item {
   border: none;
-  border-radius: 2px;
+  border-radius: 0;
   font-weight: bold;
 }
 
@@ -31,10 +31,14 @@
   .list-group.b-right {
     border: none;
   }
+  .list-group.b-right .list-group-item {
+    border-radius: 2px;
+    border: none;
+  }
 }
 
 .list-group-flush .list-group-item {
-  border-top: 1px solid #E1E5E9;
+  border-bottom: 1px solid #E1E5E9;
 }
 
 .list-group-flush .list-group-item a {
@@ -49,10 +53,6 @@
 
 .list-group-flush .list-group-item:first-child {
   border-top: none;
-}
-
-.list-group-flush .list-group-item:last-child {
-  border-bottom: 1px solid E1E5E9;
 }
 
 .pagination {
