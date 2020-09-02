@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Câu hỏi thường gặp - index</title>
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- bootstrap js cdn -->
+   
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row h-100 pt-5 pb-5">
+            <div class="col-12 col-lg-4">
+                <div class="list-group b-right d-block d-lg-none">
+                    <a class="list-group-item active d-flex justify-content-between">Quảng cáo Google<span data-target="#list-group" data-toggle="collapse" class="badge badge-light">+</span></a>
+                </div>        
+                <div class="collapse show" id="list-group">
+                    <div class="list-group b-right">
+                        <a class="list-group-item" href="#">Tất cả</a>
+                        <a class="list-group-item active d-none d-lg-block" href="#">Quảng cáo Google</a>
+                        <a class="list-group-item" href="#">Quảng cáo Facebook</a>
+                        <a class="list-group-item" href="#">Quảng cáo G Suit</a>
+                        <a class="list-group-item" href="#">Quảng cáo ADX</a>
+                        <a class="list-group-item " href="#">Quảng cáo Instagram</a>
+                        <a class="list-group-item " href="#">Quảng cáo G Suit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <h3 class="mt-3 mt-lg-0 mb-3 text-danger">Khi nào quảng cáo của tôi sẽ được chạy?</h3>
+                <div class="content-format">
+                    <p>Quảng cáo Google Adwords của bạn có thể bắt đầu chạy khi bạn thực hiện xong ba yêu cầu sau: 
+                        
+                        <br /> - Hoàn tất mọi thủ tục đăng ký tại nhà cung cấp dịch vụ. <br /> - Tạo chiến dịch quảng cáo theo yêu cầu của khách hàng. <br /> - Xác nhận thanh toán cho nhà cung cấp dịch vụ. <br />Thông thường, quảng cáo trên Google sẽ xuất hiện trong vòng vài phút sau khi chúng tôi đã; nhận được thông tin thanh toán của bạn. Thời gian tuỳ thuộc vào phương thức thanh toán bạn chọn: Với thanh toán bằng thẻ tín dụng, quảng cáo của bạn có thể chạy ngay lập tức. Với chuyển khoản ng&acirc;n hàng, quảng cáo của bạn sẽ không chạy cho đến khi khoản thanh toán đầu tiên đến nơi. <br />Bạn có thể nhận thấy rằng quảng cáo của m&igrave;nh xuất hiện trên Google trước khi xuất hiện trên các trang web đối tác của Google. Điều này là do tất cả quảng cáo xuất hiện trên trang web đối tác của chúng tôi phải được xem x&eacute;t xem có tu&acirc;n thủ nguyên tắc quảng cáo của chúng tôi hay không trước khi quảng cáo có thể chạy.</p>
+                </div>
+                <a class="btn btn-dark" href="#">Trở về</a>
+                <h3 class="mt-4">Các câu hỏi liên quan đến Quảng cáo Google</h3>
+                
+
+                <ul class="list-group-flush p-0">
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item pl-0 pr-0 pt-3 pb-3">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item pl-0 pr-0 pt-3 pb-3">
+                         <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item pl-0 pr-0 pt-3 pb-3">
+                         <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item pl-0 pr-0 pt-3 pb-3">
+                         <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        window.addEventListener('resize', listGroupResizeHandler);
+
+        function listGroupResizeHandler(){
+            if(window.innerWidth >= 992){
+                console.log('resize!!')
+                let listGroup = document.querySelector('#list-group')
+                listGroup.classList.add('show')
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

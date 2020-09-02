@@ -1,0 +1,115 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css cdn -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    
+    <!-- bootstrap js cdn -->
+   
+    <link rel="stylesheet" href="assets/css/app.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row h-100 pt-5 pb-5">
+            <div class="col-12 col-lg-4">
+                <div class="list-group b-right d-block d-lg-none">
+                    <a class="list-group-item active d-flex justify-content-between">Quảng cáo Google<span data-target="#list-group" data-toggle="collapse" class="badge badge-light">+</span></a>
+                </div>        
+                <div class="collapse show" id="list-group">
+                    <div class="list-group b-right">
+                        <a class="list-group-item" href="#">Tất cả</a>
+                        <a class="list-group-item active d-none d-lg-block" href="#">Quảng cáo Google</a>
+                        <a class="list-group-item" href="#">Quảng cáo Facebook</a>
+                        <a class="list-group-item" href="#">Quảng cáo G Suit</a>
+                        <a class="list-group-item" href="#">Quảng cáo ADX</a>
+                        <a class="list-group-item " href="#">Quảng cáo Instagram</a>
+                        <a class="list-group-item " href="#">Quảng cáo G Suit</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8">
+                <h3 class="mt-5 mt-lg-0">Quảng cáo Google</h3>
+
+
+                <ul class="list-group-flush p-0">
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                    <li class="list-group-item  pl-0 pr-0 pt-3 pb-3 border-none">
+                        <a href="" class="d-flex align-items-center justify-content-between">
+                            <div>Thế Nào Là Một Website Chất Lượng Khi Đấu Giá Google Adwords?</div>
+                            <div>></div>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="pagination w-100 justify-content-center mt-4">
+                    <li class="page-item mr-3">
+                        <a class="page-link previous" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </li>
+                    <li class="page-item ml-2 mr-2"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item ml-2 mr-2 active"><a class="page-link" href="#">222</a></li>
+                    <li class="page-item ml-2 mr-2"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item ml-3">
+                        <a class="page-link next" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+
+        window.addEventListener('resize', listGroupResizeHandler);
+
+        function listGroupResizeHandler(){
+            if(window.innerWidth >= 992){
+                let listGroup = document.querySelector('#list-group')
+                listGroup.classList.add('show')
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
