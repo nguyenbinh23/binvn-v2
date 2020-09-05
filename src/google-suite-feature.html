@@ -1,0 +1,126 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- bootstrap css cdn -->
+   <!-- bootstrap css cdn -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+   <!-- bootstrap js cdn -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+    
+    <!-- bootstrap js cdn -->
+    
+    <link rel="stylesheet" href="assets/css/app.css">
+    <style>
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 order-1 order-lg-1 mb-3">
+                <div class="card text-left">
+                  <div class="card-body">
+                    <h4 class="card-title">Gmail</h4>
+                    <p class="card-text">
+                        <button class="btn btn-primary" onclick="collapseShow('#gmail')">Open</button>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-3 order-lg-2 mb-3">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h4 class="card-title">Bảng tính</h4>
+                        <p class="card-text">
+                            <button class="btn btn-primary" onclick="collapseShow('#speardsheet')">Open</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-5 order-lg-3 mb-3">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h4 class="card-title">Sites</h4>
+                        <p class="card-text">
+                            <button class="btn btn-primary" onclick="collapseShow('#sites')">Open</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse col-lg-12 order-2 order-lg-3" id="gmail">
+                <h4>Gmail</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima soluta accusamus molestias ipsam, similique est nihil culpa, et perferendis praesentium at, a rem sit cupiditate enim dolor fuga distinctio placeat aliquid nam. Error, exercitationem et. Expedita dignissimos aut voluptatum.</p>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#gmail">Đóng</button>
+            </div>
+            <div class="collapse col-lg-12 order-4 order-lg-3" id="speardsheet">
+                <h4>Bảng tính</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima soluta accusamus molestias ipsam, similique est nihil culpa, et perferendis praesentium at, a rem sit cupiditate enim dolor fuga distinctio placeat aliquid nam. Error, exercitationem et. Expedita dignissimos aut voluptatum.</p>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#speardsheet">Đóng</button>
+            </div>
+            <div class="collapse col-lg-12 order-6 order-lg-3" id="sites">
+                <h4>Sites</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima soluta accusamus molestias ipsam, similique est nihil culpa, et perferendis praesentium at, a rem sit cupiditate enim dolor fuga distinctio placeat aliquid nam. Error, exercitationem et. Expedita dignissimos aut voluptatum.</p>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#sites">Đóng</button>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-lg-4 order-1 order-lg-1 mb-3">
+                <div class="card text-left">
+                  <div class="card-body">
+                    <h4 class="card-title">drive</h4>
+                    <p class="card-text">
+                        <button class="btn btn-primary" onclick="collapseShow('#drive')">Open</button>
+                    </p>
+                  </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-3 order-lg-2 mb-3">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h4 class="card-title">form</h4>
+                        <p class="card-text">
+                            <button class="btn btn-primary" onclick="collapseShow('#form')">Open</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 order-5 order-lg-3 mb-3">
+                <div class="card text-left">
+                    <div class="card-body">
+                        <h4 class="card-title">slide</h4>
+                        <p class="card-text">
+                            <button class="btn btn-primary" onclick="collapseShow('#slide')">Open</button>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse col-lg-12 order-2 order-lg-3" id="drive">
+                <h4>Drive</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima soluta accusamus molestias ipsam, similique est nihil culpa, et perferendis praesentium at, a rem sit cupiditate enim dolor fuga distinctio placeat aliquid nam. Error, exercitationem et. Expedita dignissimos aut voluptatum.</p>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#drive">Đóng</button>
+            </div>
+            <div class="collapse col-lg-12 order-4 order-lg-3" id="form">
+                <h4>Form</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima soluta accusamus molestias ipsam, similique est nihil culpa, et perferendis praesentium at, a rem sit cupiditate enim dolor fuga distinctio placeat aliquid nam. Error, exercitationem et. Expedita dignissimos aut voluptatum.</p>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#form">Đóng</button>
+            </div>
+            <div class="collapse col-lg-12 order-6 order-lg-3" id="slide">
+                <h4>Slide</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident minima soluta accusamus molestias ipsam, similique est nihil culpa, et perferendis praesentium at, a rem sit cupiditate enim dolor fuga distinctio placeat aliquid nam. Error, exercitationem et. Expedita dignissimos aut voluptatum.</p>
+                <button class="btn btn-secondary" data-toggle="collapse" data-target="#slide">Đóng</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function collapseShow(id){
+            $('.collapse').collapse('hide')
+            $(id).collapse('show')
+        } 
+    </script>
+</body>
+</html>
